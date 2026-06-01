@@ -6,9 +6,9 @@ SevSeg sevseg;
 
 unsigned long previousMillis = 0;
 const long interval = 1000; 
-
-const int WORK_TIME = 30; 
-const int REST_TIME = 7; 
+//you can change rest and work time as you want,by changing numbers
+const int WORK_TIME = 30; //Time of work
+const int REST_TIME = 7; //Time of rest
 
 int minutes = WORK_TIME;
 int seconds = 0;
